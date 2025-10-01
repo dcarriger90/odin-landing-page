@@ -1,13 +1,16 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
     justify-content: space-between;
 }
 
-.header {
+header {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -24,12 +27,10 @@ a {
     text-decoration: none;
 }
 
-.header ul {
+header ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    padding: 0;
-    margin: 0;
 }
 
 .hero {
@@ -42,7 +43,7 @@ a {
     flex-basis: 50%;
 }
 
-.hero-secondary, .nav a {
+.hero-secondary, nav a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -54,20 +55,18 @@ a {
     flex-basis: 50%;
 }
 
-
-
-.header, .first-section, .footer {
+header, #first-section, footer {
     background-color: #1F2937;
 }
 
-.footer {
+footer {
     color: #F9FaF8;
     display: flex;
     justify-content: center;
     padding: 25px;
 }
 
-.first-section {
+#first-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -75,20 +74,20 @@ a {
     gap: 30px;
 }
 
-.second-section {
+#second-section {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 50px 200px;
 }
 
-.second-section h2{
+#second-section h2{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
 
-.third-section {
+#third-section {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -108,7 +107,7 @@ a {
     font-size: 24px;
 }
 
-.fourth-section {
+#fourth-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -120,12 +119,7 @@ a {
     gap: 10px;
 }
 
-.fourth-section h2{
-    margin: 0;
-    padding: 0;
-}
-
-.fourth-section .sign-up-button{
+#fourth-section .sign-up-button{
     border-color: white;
     border-style: solid;
 }
@@ -146,6 +140,7 @@ a {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
+    padding: 50px;
 }
 
 .card img {
@@ -159,11 +154,12 @@ a {
 
 .sign-up-button {
     background-color: #3882F6;
+    color: white;
     font-size: 20px;
     border-radius: 10px;
     width: 100px;
     padding: 5px;
     text-align: center;
     flex-shrink: 0;
-    margin: 0;
+    border-style: none;
 }

@@ -2,67 +2,73 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Landing Page</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="styles.css" rel="stylesheet">
 	</head>
 	<body>
-        <div class="header">
-            <a class="logo" href="index.html">Header Logo</a>
-            <ul class="nav">
-                <li><a href="index.html">Header Link One</a></li>
-                <li><a href="index.html">Header Link Two</a></li>
-                <li><a href="index.html">Header Link Three</a></li>
-            </ul>
-        </div>
-        <div class="first-section">
+        <header>
+            <a class="logo" href="#">Header Logo</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Header Link One</a></li>
+                    <li><a href="#">Header Link Two</a></li>
+                    <li><a href="#">Header Link Three</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="first-section">
             <div class="hero">
                 <div class="hero-main">This website is awesome</div>
-                <div class="hero-secondary">This website has some subtext that goes here under
+                <p class="hero-secondary">
+                    This website has some subtext that goes here under
                     the main title. It's a smaller font and the color
-                    is lower contrast.</div>
-                <div class="sign-up-button">
-                    Sign up
-                </div>
+                    is lower contrast.</p>
+                <button type="button" class="sign-up-button">Sign up</button>
             </div>
-            <img class="main-image">
-        </div>
-        <div class="second-section">
+            <img class="main-image" alt="empty placeholder for main image">
+        </section>
+        <section id="second-section">
             <h2>Some Random Information.</h2>
             <div class="card-grid">
                 <div class="card">
-                    <img>
+                    <img alt="placeholder">
                     this is some subtext under an illustration or image
                 </div>
                 <div class="card">
-                    <img>
+                    <img alt="placeholder">
                     this is some subtext under an illustration or image
                 </div>
                 <div class="card">
-                    <img>
+                    <img alt="placeholer">
                     this is some subtext under an illustration or image
                 </div>
                 <div class="card">
-                    <img>
+                    <img alt="placeholder">
                     this is some subtext under an illustration or image
                 </div>
             </div>
-        </div>
-        <div class="third-section">
-        This is an inspiring quote, or a testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually 
-            read it. Who knows? All I know is that it looks nice.
-            <div class="quote-source">-Thor, God of Thunder</div>
-        </div>
-        <div class="fourth-section">
+        </section>
+        <section id="third-section">
+            <figure>
+                <blockquote>
+                    <p>This is an inspiring quote, or a testimonial from a customer.
+                        Maybe it's just filling up space, or maybe people will actually 
+                        read it. Who knows? All I know is that it looks nice.</p>
+                </blockquote>
+                <figcaption class="quote-source">-Thor, God of Thunder</div>
+            </figure>
+        </section>
+        <section id="fourth-section">
             <div class="call-to-action">
                 <h2>Call to action! It's time!</h2>
-                Sign up for our product by clicking that button right over there!
+                <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-            <div class="sign-up-button">Sign up</div>
-        </div>
-        <div class="footer">
+            <button type="button" class="sign-up-button">Sign up</button>
+        </section>
+        <footer>
                 Copyright &copy; The Odin Project 2021
-        </div>
+        </footer>
 	</body>
 </html>
