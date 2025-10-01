@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 25px 100px;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+a {
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 50%;
+}
+
+.hero-secondary, .nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-image {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    flex-basis: 50%;
+}
+
+
+
+.header, .first-section, .footer {
+    background-color: #1F2937;
+}
+
+.footer {
+    color: #F9FaF8;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 200px;
+}
+
+.second-section h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 100px 200px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.quote-source {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    font-size: 24px;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FaF8;
+    padding: 50px 100px;
+    margin: 50px 200px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.fourth-section h2{
+    margin: 0;
+    padding: 0;
+}
+
+.fourth-section .sign-up-button{
+    border-color: white;
+    border-style: solid;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card img {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    flex-shrink: 0;
+    margin: 0;
+}
