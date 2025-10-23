@@ -1,0 +1,1 @@
+This landing page was created with guidance from The Odin Project. It currently has no images or webcopy included and acts primarily as a template for further development. Development is ongoing albeit sporadically. 
